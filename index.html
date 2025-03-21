@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>HTML ASSIGNMENT WEEK TWO</title>
+        </head>
+        <body>
+
+            <!-- ordered list -->
+
+            <h1>Ordered List with Roman Numerals</h1>
+            <h3>Type of fruits</h3>
+            <ol type="i">
+                <li>Oranges</li>
+                <li>Mangoes</li>
+                <li>Watermelons</li>
+                <li>Bananas</li>
+                <li>Pineapples</li>
+            </ol>
+            <br><br>
+
+            <!-- external image -->
+
+            <img src="https://images.pexels.com/photos/68525/soap-colorful-color-fruit-68525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="a picture displaying types of fruits" width="650" height="300">
+            
+            <!-- Table -->
+
+            <h1>Table with 5 Contacts</h1>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Adel</td>
+                        <td>P.O Box 515</td>
+                        <td>0701234567</td>
+                        <td>adel@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Kevin</td>
+                        <td>P.O Box 40200</td>
+                        <td>0745987412</td>
+                        <td>kevin@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Brian</td>
+                        <td>P.O Box 20555</td>
+                        <td>0701289777</td>
+                        <td>brian@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Felix</td>
+                        <td>P.O Box 20157</td>
+                        <td>0701234597</td>
+                        <td>felix@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Etiang</td>
+                        <td>P.O Box 25</td>
+                        <td>0788234567</td>
+                        <td>etiang@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- User Registration Form -->
+
+            <h1>Registration Form</h1>
+            <form action="" method="">
+                <label for="user_name">Name: </label>
+                <input type="text" id="user_name" name="user_name" maxlength="20" required>
+                <br><br>
+                <label for="user_email">Email: </label>
+                <input type="email" id="user_email" name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <br><br>
+                <label for="user_password">Password: </label>
+                <input type="password" id="user_password" name="user_password" minlength="8" required>
+                <br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <!-- dropdown -->
+
+                <label for="country">Select your country:</label>
+                <select id="country" name="country" required>
+                    <option value="">-- Choose a Country --</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="ke">Kenya</option>
+                    <option value="ca">Canada</option>
+                </select>
+
+                <!-- radio buttons -->
+
+                <p>Choose Your Gender:</p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male" required> 
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female"> 
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other"> 
+                <br><br>
+
+                <!-- Check Boxes -->
+
+                <p>Select your Hobbies:</p>
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="reading" name="Hobbies" value="reading">
+                <label for="music">Music</label>
+                <input type="checkbox" id="music" name="Hobbies" value="music">
+                <label for="riding">Riding</label>
+                <input type="checkbox" id="riding" name="Hobbies" value="riding">
+                <label for="swimming">Swimming</label>
+                <input type="checkbox" id="swimming" name="Hobbies" value="swimming">
+                <br><br>
+
+                <!-- Buttons -->
+
+                <button>Register</button>
+                <input type="button" value="Cancel">
+            </form>
+        </body>
+    </html>
